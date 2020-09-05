@@ -12,6 +12,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `Dependencies`
+
+"bootstrap": "^4.5.2", <br />
+"react": "^16.13.1", <br />
+"react-bootstrap": "^1.3.0", <br />
+"react-dom": "^16.13.1", <br />
+"react-redux": "^7.2.1", <br />
+"react-scripts": "3.4.3", <br />
+"redux": "^4.0.5"
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
