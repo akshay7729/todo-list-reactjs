@@ -1,4 +1,5 @@
 import { TODO } from "../Constants";
+import { REHYDRATE } from "redux-persist";
 
 const initialState = {
   add: [],
@@ -7,6 +8,11 @@ const initialState = {
 
 const AddReducer = (state = initialState, action) => {
   switch (action.type) {
+    case REHYDRATE:
+      return {
+        ...state,
+      };
+
     case TODO.ADD:
       return {
         ...state,
